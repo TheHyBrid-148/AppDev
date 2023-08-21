@@ -1,2 +1,3 @@
 # AppDev
-AppDev stuff
+
+# The sole new project outline for an overview of application development
