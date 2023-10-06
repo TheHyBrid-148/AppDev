@@ -35,7 +35,7 @@ window = tk.Tk()
 window.title("Custom Window Title")
 window.geometry("400x300")
 
-root.mainloop()
+window.mainloop()
 --------
 # Code 3 - Adding Labels with Texts
 # Variation 1 - Label with Custom Font and Color
@@ -62,7 +62,7 @@ label2 = tk.Label(window, text="Label 2")
 label1.pack()
 label2.pack()
 
-root.mainloop()
+window.mainloop()
 ----------
 # Code 4 - Working with Buttons
 # Variation 1 - Creating Buttons
@@ -81,7 +81,7 @@ button.pack()
 label = tk.Label(window, text+"")
 label.pack()
 
-root.mainloop()
+window.mainloop()
 
 # Variation 2 - Multiple buttons
 import tkinter as tk
@@ -145,4 +145,6 @@ clear_button = tk.Button(window, text="Clear", command=clear_entry)
 text_button = tk.Button(window, text="Default", command=set_default_text)
 clear_button.pack()
 text_button.pack()
+
+window.mainloop()
 --------
