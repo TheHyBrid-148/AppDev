@@ -87,7 +87,7 @@ window.mainloop()
 import tkinter as tk
 
 def on_button_clicked(button_text):
-    lavel.config(text=f"Button '{button_text}' Clicked")
+    label.config(text=f"Button '{button_text}' Clicked")
 
 window = tk.Tk()
 window.title("Sample Title")
